@@ -12,3 +12,13 @@ void Book::display_info() const {
          <<", Title" << title 
          << ", Author:" <<author << std::endl;
 }
+
+    int Book::getId() const{
+        return id;
+    }
+    std::string Book::getTitle() const{
+        return title;
+    }
+    std::string Book::getAuthor() const{
+        return author;
+    }

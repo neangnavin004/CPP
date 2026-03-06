@@ -11,4 +11,8 @@ private:
 public:
     Book(int id, std::string title, std::string author);
     void display_info() const;
+
+    int getId() const;
+    std::string getTitle() const;
+    std::string getAuthor() const;
 };
